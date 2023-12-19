@@ -7,10 +7,10 @@ import Education from "../components/Education";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import Footer from "../components/Footer";
-
+import Certifications from "../components/Certifications";
 const Home = () => {
   return (
-    <div class="flex min-h-screen justify-center bg-gradient-to-l from-blue-200 to-stone-300">
+    <div class="flex min-h-screen justify-center bg-gradient-to-l from-pink-100 to-zinc-300">
       <div class="fixed top-0 z-10 w-full sm:w-4/5 max-w-5xl shadow-md">
         <Navbar />
       </div>
@@ -19,8 +19,9 @@ const Home = () => {
         <HeroSection />
         <Experience id="s-experience" />
         <Skills id="s-skills" />
-        <Education id="s-education" />
         <Projects id="s-projects" />
+        <Certifications id="s-certifications" />
+        <Education id="s-education" />
         <ContactMe id="s-contactme" />
         <div class="h-40"></div>
       </div>
@@ -29,6 +30,6 @@ const Home = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Home;

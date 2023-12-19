@@ -14,7 +14,7 @@ const Navbar = () => {
       name: "Experience",
       id: "s-experience",
     },
-    { name: "Skills", id: "s-skills" },
+    { name: "Certifications", id: "s-certifications" },
     { name: "Education", id: "s-education" },
     { name: "Projects", id: "s-projects" },
     { name: "Contact me", id: "s-contactme" },
@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav class="flex flex-row justify-around  bg-neutral-200 p-2 ">
       {parts.map((item, index) => (
         <div
-          class="text-center font-sans text-xs sm:text-2xl font-semibold text-black hover:text-blue-800 "
+          class="text-center font-sans text-sm sm:text-lg md:text-xl lg:text-2xl font-semibold text-black hover:text-blue-800 "
           onClick={() => handleClickScroll(item.id)}
           key={index}
         >

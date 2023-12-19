@@ -12,6 +12,17 @@ const Projects = ({ id }) => {
       description: ["Developing web pages using React and chakra-ui"],
     },
     {
+      title: "Human Resources Telegram Bot",
+      company: {
+        name: "Tousradieh Company",
+        link: "",
+      },
+      description: [
+        "Using a telegram bot for company human resources activity such as navigation and presence.",
+        "Implemented with python-telegram-bot and Django orm.",
+      ],
+    },
+    {
       title: "AIC20-Client",
       company: {
         name: "AlChallenge 2020",
